@@ -13,3 +13,15 @@
         </div>
     </div>
 </section>
+
+<section class="blog-section">
+    <div class="container">
+        <?php if ($news) : ?>
+            <?php foreach ($news as $newsItem) : ?>
+                <h3><?php echo $newsItem['title']; ?></h3>
+            <?php endforeach; ?>
+        <?php else : ?>
+            <p class="text-center">No post have been found!</p>
+        <?php endif; ?>
+    </div>
+</section>
