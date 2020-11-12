@@ -19,6 +19,7 @@
         <?php if ($news) : ?>
             <?php foreach ($news as $newsItem) : ?>
                 <h3><?php echo $newsItem['title']; ?></h3>
+                <p><?php echo $newsItem['body'] ?></p>
             <?php endforeach; ?>
         <?php else : ?>
             <p class="text-center">No post have been found!</p>

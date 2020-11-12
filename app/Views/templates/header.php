@@ -14,13 +14,16 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link" href="/codeigniter-blog/public/">Home <span class="sr-only">(current)</span></a>
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/codeigniter-blog/public/about">About us</a>
+                    <a class="nav-link" href="/about">About us</a>
                 </li>
+            </ul>
+            <ul class="navbar-nav">
+                <li><a href="/blog/create" class="btn btn-outline-success">Create Post</a></li>
             </ul>
         </div>
     </div>
