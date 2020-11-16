@@ -1,7 +1,7 @@
 <div>
     <div class="row bg-dark">
-        <div class="container">
-            <h4 style="color: #fff">FOOTER</h4>
+        <div class="container text-center">
+            <h6 style="color:#fff;">&copy; <a style="color:#fff;" href="https://github.com/IvoArsov" target="_blank">Ivaylo Arsov</a> 2020</h6>
         </div>
     </div>
 </div>

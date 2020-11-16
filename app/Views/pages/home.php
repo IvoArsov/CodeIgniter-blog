@@ -21,7 +21,6 @@
             <p>
                 <div class="10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt sunt id voluptates eum, repudiandae ratione! Ad earum cupiditate omnis enim amet velit, optio dicta nesciunt incidunt libero, doloribus nulla vitae.</div>
             </p>
-            <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
         </div>
     </div>
 </section>

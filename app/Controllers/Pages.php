@@ -16,12 +16,10 @@ class Pages extends BaseController
     
     public function showme($page = 'home'){
 
-        /*if(! is_file(APPPATH.'Views/pages/'.$page.'.php')){
+        if(! is_file(APPPATH.'Views/pages/'.$page.'.php')){
             //Page not found
             throw new \CodeIgniter\Exceptions\PageNotFoundException($page);
-        }else{
-            
-        }*/
+        }
 
         echo view('templates/header');  
         echo view("pages/$page");  
